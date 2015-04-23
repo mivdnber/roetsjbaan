@@ -1,6 +1,8 @@
-import argparse, sys, time
+import argparse, sys, time, os
 from tabulate import tabulate
 import roetsjbaan
+
+sys.path.append(os.getcwd())
 import roetsjfile
 
 mig = roetsjbaan.Migrator(roetsjfile.versioner,

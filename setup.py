@@ -1,12 +1,11 @@
 from setuptools import setup
-from os.path import join, dirname
 
 setup(
     name='roetsjbaan',
-    version='0.1.2',
+    version='0.1.3',
     description='A minimal, lightweight migration system',
     url='https://github.com/mivdnber/roetsjbaan',
-    download_url='https://github.com/mivdnber/roetsjbaan/tarball/0.1.2',
+    download_url='https://github.com/mivdnber/roetsjbaan/tarball/0.1.3',
     author='Michiel Van den Berghe',
     author_email='michiel.vdb@gmail.com',
     license='MIT',
