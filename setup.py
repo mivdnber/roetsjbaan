@@ -3,10 +3,10 @@ from os.path import join, dirname
 
 setup(
     name='roetsjbaan',
-    version='0.1.1',
+    version='0.1.2',
     description='A minimal, lightweight migration system',
     url='https://github.com/mivdnber/roetsjbaan',
-    download_url='https://github.com/mivdnber/roetsjbaan/tarball/0.1.1',
+    download_url='https://github.com/mivdnber/roetsjbaan/tarball/0.1.2',
     author='Michiel Van den Berghe',
     author_email='michiel.vdb@gmail.com',
     license='MIT',
