@@ -19,7 +19,7 @@ setup(
         ]
     },
     install_requires=[
-        'slugify==0.0.1'
+        'slugify==0.0.1',
         'tabulate==0.7.5'
     ]
 )
