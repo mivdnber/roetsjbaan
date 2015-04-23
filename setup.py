@@ -1,9 +1,6 @@
 from setuptools import setup
 from os.path import join, dirname
 
-with open(join(dirname(__file__), 'requirements.txt')) as f:
-    requirements = list(f)
-
 setup(
     name='roetsjbaan',
     version='0.1.1',
@@ -21,5 +18,8 @@ setup(
             'roetsj=roetsjbaan.main:main'
         ]
     },
-    install_requires=requirements
+    install_requires=[
+        'slugify==0.0.1'
+        'tabulate==0.7.5'
+    ]
 )
