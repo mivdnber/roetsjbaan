@@ -13,10 +13,10 @@ class FileVersioner(Versioner):
             with open(self.path, 'r') as f:
                 self.version = f.read().strip()
         except IOError:
-            self.set('pristine')
+            pass
 
     def get(self):
-        return self.version or self.set('pristine')
+        return self.version
 
     def set(self, version):
         self.version = version
